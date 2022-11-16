@@ -1,0 +1,114 @@
+body {
+    overflow-x: hidden;
+   
+}
+.fondo1{ 
+    background-color: #acb6e5; /* fallback for old browsers */
+    background-color: -webkit-linear-gradient(to left, #acb6e5, #86fde8); /* Chrome 10-25, Safari 5.1-6 */
+    background-color: linear-gradient(to left, #acb6e5, #86fde8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+}
+
+.header {
+    color: #0000;
+}
+
+.cards {
+    max-height: 450px; 
+}
+
+.carousel-inner {
+    max-height: 39rem;
+}
+.fondo {
+    background-color: #acb6e5; /* fallback for old browsers */
+    background-color: -webkit-linear-gradient(to left, #acb6e5, #86fde8); /* Chrome 10-25, Safari 5.1-6 */
+    background-color: linear-gradient(to left, #acb6e5, #86fde8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+ 
+}
+    
+    
+
+
+@media (min-width:786px) {
+    #cursos {
+        width: 60% !important;
+    }
+}
+@media (min-width:426px) {
+    #cursos {
+        width: 80% !important;
+    }
+}
+@media (min-width:2560px) {
+    #cursos {
+        width: 51% !important;
+    }
+}
+
+.container2{
+    font-family: Arial;
+    
+    
+}
+
+.container3{
+    font-family: "BerkshireSwash-Regular.ttff";
+    background-color: #acb6e5; /* fallback for old browsers */
+    background-color: -webkit-linear-gradient(to left, #acb6e5, #86fde8); /* Chrome 10-25, Safari 5.1-6 */
+    background-color: linear-gradient(to left, #acb6e5, #86fde8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    
+}
+
+.container4{
+    font-family: "BerkshireSwash-Regular.ttff";
+    background-color: #acb6e5; /* fallback for old browsers */
+    background-color: -webkit-linear-gradient(to left, #acb6e5, #86fde8); /* Chrome 10-25, Safari 5.1-6 */
+    background-color: linear-gradient(to left, #acb6e5, #86fde8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    
+}
+
+.card{
+    font-family: "BerkshireSwash-Regular.ttff";
+    font-size: 20px;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url('../Imagenes/fuente/BerkshireSwash-Regular.ttf');
+}
+
+.letra{
+    font-family: myFirstFont;
+}
+
+.letra2{
+    font-family: myFirstFont;
+    font-size: 40px;
+    color: black;
+}
+
+.letra3{
+    font-family: myFirstFont;
+    font-size: 25px;
+    color: black;
+}
+
+
+.buscador{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.caja{
+    margin-left: 40px;
+    margin-right: 1px;
+}
+
+.caja1{
+    margin-left: 40px;
+    margin-right: 1px;
+    float: left;
+}
+
+.cuadro{
+    color: white;
+}
+
