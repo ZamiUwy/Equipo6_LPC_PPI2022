@@ -17,7 +17,7 @@ function Register(){
            </div> 
 
                    <div class="card-body"> 
-                 <form action="/HomeL" method="get"> 
+                 <form className="needs-validation" noValidate=""> 
                      <div class="mb-3"> 
                            <label for="exampleInputEmail1" class="form-label"></label> 
                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nombre y apellido"/> 

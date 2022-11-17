@@ -72,29 +72,29 @@ class FormularioRegistro extends React.Component {
                         
                         <div className="col-md-6 mb-3">
                             <label >Documento</label>
-                            <input type="text" className="form-control" name="Documento" id="Usuario" placeholder="Documento" required="" onChange={this.handleChange} value={data.Documento}></input>
+                            <input type="text" className="form-control" name="Documento" id="Usuario" placeholder="Ingrese su número de documento" required="" onChange={this.handleChange} value={data.Documento}></input>
                         </div>
                         <div className="col-md-6 mb-3">
-                            <label>Nombre_apellido</label>
-                            <input type="text" className="form-control" name="Nombre_apellido" id="Usuario" placeholder="Nombre_apellido" required="" onChange={this.handleChange} value={data.Nombre_apellido}></input>
+                            <label>Nombre Completo</label>
+                            <input type="text" className="form-control" name="Nombre_apellido" id="Usuario" placeholder="Ingrese su nombre completo" required="" onChange={this.handleChange} value={data.Nombre_apellido}></input>
                         </div>
                     </div>
                     <div className="mb-3">
-                        <label>telefono</label>
-                        <input type="email" className="form-control" name="telefono" id="email" placeholder="you@example.com" onChange={this.handleChange} value={data.telefono}></input>
+                        <label>Telefono</label>
+                        <input type="text" className="form-control" name="telefono" id="email" placeholder="Ingrese su número telefónico" onChange={this.handleChange} value={data.telefono}></input>
                     </div>
                     <div className="mb-3">
                         <label>Correo</label>
-                        <input type="password" className="form-control" name="Correo" id="Contraseña" onChange={this.handleChange} value={data.Correo}></input>
+                        <input type="email" className="form-control" name="correo" id="Contraseña" placeholder="Ingrese su correo electrónico" onChange={this.handleChange} value={data.correo}></input>
                     </div>
                     
                     <div className="mb-3">
-                        <label>direccion_especifica</label>
-                        <input type="text" className="form-control" name="direccion_especifica" id="email" onChange={this.handleChange} value={data.direccion_especifica}></input>
+                        <label>Dirección</label>
+                        <input type="text" className="form-control" name="direccion_especifica" id="email" placeholder="Ingrese su dirección específica" onChange={this.handleChange} value={data.direccion_especifica}></input>
                     </div>
                     <div className="mb-3">
                         <label>Contraseña</label>
-                        <input type="text" className="form-control" name="contraseña" id="email" onChange={this.handleChange} value={data.contraseña}></input>
+                        <input type="password" className="form-control" name="contraseña" id="email" placeholder="Ingrese contraseña" onChange={this.handleChange} value={data.contraseña}></input>
                     </div>
                    
                     <hr className="mb-4"></hr>

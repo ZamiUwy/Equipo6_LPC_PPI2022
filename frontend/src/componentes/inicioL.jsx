@@ -13,7 +13,7 @@ import casal2 from '../Imagenes/casal2.jpg';
 import casal3 from '../Imagenes/casal3.jpg';
 import casal4 from '../Imagenes/casal4.jpg';
 import casal5 from '../Imagenes/casal5.jpg';
-import casal6 from '../Imagenes/casal6.jpg';
+
 
 function InicioL() {
   return (
@@ -51,7 +51,7 @@ function InicioL() {
                   <p class="card-text"><strong>Zona:</strong>Manrrique</p>
 
                   <p class="card-text"><strong>Venta</strong></p>
-                  <Link href="#" class="btn btn-primary">Conocer más</Link>
+                  <Link to="/House2" class="btn btn-primary">Conocer más</Link>
                 </div>
               </div>
             </div>
@@ -63,7 +63,7 @@ function InicioL() {
                   <p class="card-text"><strong>Zona:</strong>Aranjuez</p>
 
                   <p class="card-text"><strong>Arriendo</strong></p>
-                  <Link href="#" class="btn btn-primary">Conocer más</Link>
+                  <Link to="/House3" class="btn btn-primary">Conocer más</Link>
                 </div>
               </div>
             </div>
@@ -75,7 +75,7 @@ function InicioL() {
                   <p class="card-text"><strong>Zona:</strong>El picacho</p>
 
                   <p class="card-text"><strong>Venta</strong></p>
-                  <Link href="#" class="btn btn-primary">Conocer más</Link>
+                  <Link to="/House4" class="btn btn-primary">Conocer más</Link>
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@ function InicioL() {
                   <p class="card-text"><strong>Zona:</strong>San cristóbal</p>
 
                   <p class="card-text"><strong>Arriendo</strong></p>
-                  <Link href="#" class="btn btn-primary">Conocer más</Link>
+                  <Link to="/House5" class="btn btn-primary">Conocer más</Link>
                 </div>
               </div>
             </div>
@@ -99,7 +99,7 @@ function InicioL() {
                   <p class="card-text"><strong>Zona:</strong>San Javier</p>
                   <p class="card-text">Sin amoblar</p>
 
-                  <Link href="#" class="btn btn-primary">Conocer más</Link>
+                  <Link to="/House6" class="btn btn-primary">Conocer más</Link>
                 </div>
               </div>
             </div>
@@ -131,7 +131,7 @@ function InicioL() {
         <p class="card-text">es una casa con dos pisos,tiene parqueadero, tres baños,5 habitaciones,cocina amplia y patio trasero.</p>
         <h5 class="card-title"> <strong> En venta</strong></h5>
         <h5 class="card-title"> <strong>Precio:180.000.000</strong></h5>
-        <Link href="" class="btn btn-primary">Conocer más</Link>
+        <Link to="/House7" class="btn btn-primary">Conocer más</Link>
       </div>
     </div>
   </div>
@@ -144,7 +144,7 @@ function InicioL() {
         <p class="card-text">es una casa de un solo piso, tres habitaciones, dos baños, cocina mediana</p>
         <h5 class="card-title"> <strong>En alquiler</strong></h5>
         <h5 class="card-title"> <strong> Precio:600.000</strong></h5>
-        <Link href="" class="btn btn-primary">Conocer más</Link>
+        <Link to="/House8" class="btn btn-primary">Conocer más</Link>
       </div>
     </div>
   </div>
@@ -157,7 +157,7 @@ function InicioL() {
         <p class="card-text">Es una casa de dos pisos,4 habitaciones,3 baños, cocina mediana, patio trasero</p>
         <h5 class="card-title"> <strong>En alquiler</strong></h5>
         <h5 class="card-title"> <strong>Precio:750.000</strong></h5>
-        <Link href="" class="btn btn-primary">Conocer más</Link>
+        <Link to="/House9" class="btn btn-primary">Conocer más</Link>
       </div>
     </div>
   </div>
@@ -170,7 +170,7 @@ function InicioL() {
         <p class="card-text">Es una casa de dos pisos, 6 habitaciones, 5 baños, cocina mediana,sala amplia,patio trasero</p>
         <h5 class="card-title"><strong>En venta</strong></h5>
         <h5 class="card-title"> <strong>Precio: 167.000.000</strong></h5>
-        <Link href="" class="btn btn-primary">Conocer más</Link>
+        <Link to="/House10" class="btn btn-primary">Conocer más</Link>
       </div>
     </div>
   </div>
@@ -179,27 +179,16 @@ function InicioL() {
     <div class="card h-100">
       <img src={casal5} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title"> <strong>Código:12</strong></h5>
+        <h5 class="card-title"> <strong>Código:11</strong></h5>
         <p class="card-text">Es una casa de un piso, dos habitaciones,dos baños,cocina pequeña,amoblada</p>
        <h5 class="card-title">  <strong>En alquiler</strong></h5>
         <h5 class="card-title"> <strong>Precio: 450.000</strong></h5>
-        <Link href="" class="btn btn-primary">Conocer más</Link>
+        <Link to="/House11" class="btn btn-primary">Conocer más</Link>
       </div>
     </div>
   </div>
 
-  <div class="caja pt-3">
-    <div class="card h-100">
-      <img src={casal6} class="card-img-top" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title"> <strong>Código:13</strong></h5>
-        <p class="card-text">Es una casa de un solo piso, dos habitaciones, un baño,cocina mediana,miniestacionamiento.</p>
-        <h5 class="card-title"> <strong> En alquiler</strong></h5>
-        <h5 class="card-title"> <strong>Precio:500.000</strong></h5>
-        <Link href="" class="btn btn-primary">Conocer más</Link>
-      </div>
-    </div>
-  </div>
+  
 
   <div class="caja pt-3">
     <div class="card h-100">

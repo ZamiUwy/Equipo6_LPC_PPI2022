@@ -2,7 +2,6 @@ import React from "react";
 import Menu from '../componentes/menu';
 import Portada from '../componentes/portada';
 import Piedepagina from "../componentes/piedepagina";
-import FormularioRegistro from "../componentes/FormularioRegistro";
 
 function Inicio(){
     return(
@@ -10,7 +9,7 @@ function Inicio(){
                <Menu/>
                <Portada/>
                <Piedepagina/>
-               <FormularioRegistro/>
+               
         </div>
 
     );

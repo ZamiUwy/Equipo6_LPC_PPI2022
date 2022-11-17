@@ -1,19 +1,19 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import '../Estilos/index.css';
-import casitav2 from '../Imagenes/casitav2.PNG';
+import otro from '../Imagenes/otro.PNG';
 import Baño from '../Imagenes/Baño.jpg';
 import doscamas from '../Imagenes/doscamas.jpg';
 import sencilla from '../Imagenes/sencilla.jpg';
 import cocina from '../Imagenes/cocina.jpg';
 
-function house(){
+function house6(){
     return(
         <div className="fondo1 pt-3">
         <div classNameName="fondo col-17" style={{ backgroundcolor: "#D933FF" }}>
         
         <div className="pt-4">
-          <h1 className="letra3 text-center">Código:01</h1>
+          <h1 className="letra3 text-center">Código:06</h1>
         </div>
                        <div className="fondo1 col-14">
                        <div className="caja row pt-4 col-md-6">
@@ -23,7 +23,7 @@ function house(){
                   <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
                       <div class="card">
-                        <img src={casitav2} class="card-img-top img-fluid cards" alt="..." />
+                        <img src={otro} class="card-img-top img-fluid cards" alt="..." />
                       </div>
         
                     </div>
@@ -80,7 +80,7 @@ function house(){
                      <p class="card-text">Medidas: 55.2 m2</p>
                      <p class="card-text">Estrato: 3</p>
                      <p class="card-text">Tipo de propiedad: Apartamento</p>
-                     <h5 class="card-title"><strong>Ubicada en:</strong>San Javier-calle 9</h5>
+                     <h5 class="card-title"><strong>Ubicada en:</strong>San javier-calle 8</h5>
                      <h5 class="card-title"><strong>Valor: $800.000</strong></h5>
              </div>
         </div>
@@ -131,4 +131,4 @@ function house(){
     );
 }
 
-export default house;
+export default house6;

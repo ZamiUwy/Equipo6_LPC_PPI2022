@@ -1,19 +1,19 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import '../Estilos/index.css';
-import casitav2 from '../Imagenes/casitav2.PNG';
+import casal2 from '../Imagenes/casal2.jpg';
 import Baño from '../Imagenes/Baño.jpg';
 import doscamas from '../Imagenes/doscamas.jpg';
 import sencilla from '../Imagenes/sencilla.jpg';
 import cocina from '../Imagenes/cocina.jpg';
 
-function house(){
+function house8(){
     return(
         <div className="fondo1 pt-3">
         <div classNameName="fondo col-17" style={{ backgroundcolor: "#D933FF" }}>
         
         <div className="pt-4">
-          <h1 className="letra3 text-center">Código:01</h1>
+          <h1 className="letra3 text-center">Código:08</h1>
         </div>
                        <div className="fondo1 col-14">
                        <div className="caja row pt-4 col-md-6">
@@ -23,7 +23,7 @@ function house(){
                   <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
                       <div class="card">
-                        <img src={casitav2} class="card-img-top img-fluid cards" alt="..." />
+                        <img src={casal2} class="card-img-top img-fluid cards" alt="..." />
                       </div>
         
                     </div>
@@ -78,10 +78,10 @@ function house(){
                      <p class="card-text">Habitaciones: 3</p>
                      <p class="card-text">Baños: 2</p>
                      <p class="card-text">Medidas: 55.2 m2</p>
-                     <p class="card-text">Estrato: 3</p>
-                     <p class="card-text">Tipo de propiedad: Apartamento</p>
-                     <h5 class="card-title"><strong>Ubicada en:</strong>San Javier-calle 9</h5>
-                     <h5 class="card-title"><strong>Valor: $800.000</strong></h5>
+                     <p class="card-text">Estrato: 2</p>
+                     <p class="card-text">Tipo de propiedad: Casa</p>
+                     <h5 class="card-title"><strong>Ubicada en:</strong>Pajarito-calle 10-casa 206</h5>
+                     <h5 class="card-title"><strong>Valor: $600.000</strong></h5>
              </div>
         </div>
         </div>
@@ -115,7 +115,7 @@ function house(){
         
         <div class="card-body">
           <h5 class="card-title"> <strong>Extra</strong></h5>
-          <p class="card-text">Te ofrecemos un lindo apartamento que tiene 2 baños,cocina, un balcón amplio,sala comedor,ubicado en el 6to piso, ubicado al frente un supermercado, con estacionamiento privado. </p>
+          <p class="card-text">Te ofrecemos una casa pequeña y linda con 3 habitaciones, 2 baños, cocina mediana, y amoblada. </p>
         </div>
         </div>
         </div>
@@ -131,4 +131,4 @@ function house(){
     );
 }
 
-export default house;
+export default house8;
